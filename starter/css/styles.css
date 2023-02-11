@@ -1,0 +1,343 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px;
+}
+
+.service
+{
+    background-color:#f5f5f5 ;
+    font-family: 'Poppins', sans-serif;
+}
+.service h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: rgb(181, 150, 150);
+}
+.span1
+{
+    color: #444;
+}
+
+.span2
+{
+    color: #16a085;
+}
+.boxxy
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5rem; 
+    grid-template-rows: 220px 220px ;
+    text-transform: capitalize;
+    padding: 2rem 2rem;
+    
+}
+
+.box{
+    background-color: white;
+    border:#16a085  solid 3px;
+    grid-gap: 2rem;
+    box-shadow: 3px 4px 10px #212020;
+    
+}
+.box h3 {
+    margin-left: 1.5rem;
+}
+.box i {
+    margin-left: 1.5rem;
+   
+        font-size: 2.5rem;
+        color:#16a085 ;
+        padding-top: 10px;
+    
+    
+}
+.box p {
+    margin-left: 1.5rem;
+    color: #777;
+}
+.box button{
+    
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 3px solid #16a085 ;
+    background-color: white;
+    height: 29px;
+    color: #16a085; 
+    
+    
+}
+.box button:hover
+{
+    background-color: #16a085 ;
+    width: 115px ;
+    transition:0.4s ease-out ;
+    color: white;
+    box-shadow: 3px 4px 10px #212020;
+    color: white;
+}
+.box a{
+    text-decoration: none;
+    color: #16a085;
+}
+
+.box a:hover
+{
+    color: white;
+}
+
+
+/* About us section */
+
+.header{
+    height: 500px;
+}
+.header h1{
+    
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: rgb(181, 150, 150);
+
+}
+.contanier-header
+{
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 500px 500px;
+}
+
+.box2
+{
+    margin-top: 4rem;
+}
+
+.box2 h2{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.8;
+    color: #777;
+}
+
+.box2 p
+{
+    color: #777;
+}
+.header img{
+    float: left;
+    width: 100%;
+    position: relative;
+    bottom: 70px;
+}
+
+/* 
+our doctors section */
+.ourdocs{
+    background-color: #f5f5f5;
+    padding: 0 2rem;
+}
+
+.ourdocs h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: rgb(181, 150, 150);
+}
+
+.ourdocs h2{
+    margin-bottom: 0.1rem;
+    padding-bottom: 0.1rem;
+    color: #444;
+}
+
+.boxdoc
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows : auto auto;
+    gap: 2rem;
+    text-align: center;
+    
+}
+.doc1
+{
+    border: 3px solid #16a085;
+}
+
+.doc1 img{
+    width: 55%;
+    position: relative;
+    top: 2rem;
+    margin-bottom:0.5rem ;
+    border: 2px solid #16a085;
+}
+.doc1 span
+{
+    color: #16a085;
+}
+
+.brandbutton
+{
+    border: 2px solid #16a085;
+    border-radius: 2px;
+    margin: 1rem 0.5rem;
+    height: 2rem;
+    width: 4rem;
+
+}
+.brandbutton:hover
+{
+    background-color: #16a085;
+    transition: all 0.4s ease-in-out;
+}
+
+.brandslogo
+{
+    font-size: 1.5rem;
+    color: #16a085;
+}
+
+.brandslogo:hover
+{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Book now section */
+
+.booknow{
+    padding: 0rem 2rem;
+    height: 700px;
+}
+.booknow h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: rgb(181, 150, 150); 
+}
+.booknow h2{
+    font-size: 2rem;
+    color: #444;
+}
+
+#booknowheader
+{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 550px 600px;
+}
+
+.boxpic
+{
+    
+}
+
+.form
+{
+    text-align: center;
+    border: 2px solid #16a085;
+    box-shadow: 3px 4px 10px #212020;
+}
+input
+{
+    width: 75%;
+    height: 30px;
+    border: 2px solid #16a085;
+    
+}
+.input-label
+{
+    margin: 20px auto;
+    color: #444;
+}
+.submit
+{
+    margin-top: 10px;
+    width: 120px;
+    height: 2rem;
+    background-color: white;
+}
+
+.submit:hover
+{
+    background-color: #16a085;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+/* Our Clients Section */
+.reviews
+{
+    padding: 0rem 2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.reviews h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-shadow: rgb(181, 150, 150); 
+}
+
+.rev-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+.client
+{
+    border: 3px solid #16a085;
+    margin: 0px 22px;
+    box-shadow: 3px 4px 10px #212020;
+    border-radius: 5%;
+}
+.client img{
+    border-radius: 100%;
+    border: 3px solid #16a085;
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+.client h2{
+    margin-bottom: 0.3rem;
+    color: #444;
+}
+.stars
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+.client p{
+    color: #444;
+}
+
+.client:hover
+{
+    background-color: #16a085;
+    transition: all 0.5s ease-in-out;
+     
+}
+
+
+
+
+/* Ubaid section */
